@@ -1,0 +1,11 @@
+
+class Books:
+    def __init__(self,title,year,):
+        self.title= title
+        self.year= year
+
+    def fetch_books(self):
+        print(f"The {self.title} was published in {self.year}")
+
+book_one= Books("Tale Of Nine Tailed Fox", "2020")
+book_one.fetch_books()
